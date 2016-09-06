@@ -15,7 +15,7 @@ Use securing confined his shutters. Delightful as he it acceptance an solicitude
 | Stage | Start  | End | Goals |
 | ------------- | ------------- | ------------- | ------------- |
 | 1 | 08/29/16  | 09/04/16  | Project Selection, Plan Discussion, and Proposal Draft Writing |
-| 2 | 09/05/16  | 09/11/16  | Enviroment Setup, ...  |
+| 2 | 09/05/16  | 09/11/16  | Enviroment Setup, System Desgin, .. |
 | 3 | 09/19/16  | 09/25/16  | Coming soon  |
 | 4 | 09/26/16  | 10/02/16  | Coming soon  |
 | 5 | 10/03/16  | 10/09/16  | Coming soon  |
