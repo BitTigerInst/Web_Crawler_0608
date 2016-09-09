@@ -5,11 +5,11 @@
 This project is ultilizing Scrapy to crawl and scrape a web page (http://www.trulia.com). The content crawled will be saved in MongoDB and display on our pages sorted by diferent feature like ranking and number of times read. This crawler collects the mortgage dataset from trulia website and we will develop a web application to display the mortgage for sale based on the zip code. We also apply some filters such as house's prices and condition to enhance user experience.
 
 ## Plan
-1) Analyze trulia's website to create data model for the project.
-2) Create a web crawler project and implement function requirements to generate the mortgage database.
-3) Integrate MongoDB with the web crawler to store all collected data.
-4) Build backend web services using Express JS.
-5) Develop frontend using Javascript, Bootstrap, and HTML5. 
+- 1) Analyze trulia's website to create data model for the project.
+- 2) Create a web crawler project and implement function requirements to generate the mortgage database.
+- 3) Integrate MongoDB with the web crawler to store all collected data.
+- 4) Build backend web services using Express JS.
+- 5) Develop frontend using Javascript, Bootstrap, and HTML5. 
 
 ##Bonus (when having extra time)
 We like to collect and display the monthly rent estimate data from [Zillow](http://www.zillow.com). This feature can help users gain more vision and have better decision making before purchasing the property.
