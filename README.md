@@ -4,6 +4,19 @@
 
 This project is ultilizing Scrapy to crawl and scrape a web page (http://www.trulia.com). The content crawled will be saved in MongoDB and display on our pages sorted by diferent feature like ranking and number of times read. This crawler collects the mortgage dataset from trulia website and we will develop a web application to display the mortgage for sale based on the zip code. We also apply some filters such as house's prices and condition to enhance user experience.
 
+
+ we can start with NJ, because it is a small state and divided into 3 area, north jersey, central jersey, south jersey. then we can get a list of all counties and zip code or area under each county. Then we can crawl the Trulia website for 
+ (1) summary page of median price, school rating, demographics 
+  http://www.trulia.com/real_estate/Millburn-New_Jersey/
+  (2) list  of houses for sale and their basic information, and store on our data base
+ http://www.trulia.com/for_sale/Millburn,NJ/list_v/
+ 
+ in the mean time we can search for a table of distance  between zip codes in NJ, so we can implement the radius in search
+ 
+ the final product will have the following function: user (1) select north/ south/mid NJ (2) input median house price/budege and sqft/ rent price,   school rate,  other demographics (3) get results of zip codes and a list of summaries for that zip code (4)  see the listings in this zip code and further filter by bedroom number/bathroom number etc
+ 
+ if we get the distance between zip codes, we can replace (1) with a center zipcode and a selection of radius 10 miles, 20 miles 30 miles etc.  
+ 
 ## Plan
 - 1) Analyze trulia's website to create data model for the project.
 - 2) Create a web crawler project and implement function requirements to generate the mortgage database.
