@@ -1,0 +1,14 @@
+
+	
+1. Convert longitude and latitude of two cities into distance in miles: 
+
+Use longitudes and lattitudes from the CSV zip code file and do the following: 
+
+Improved approximate distance in miles:
+
+    sqrt(x * x + y * y)
+
+where x = 69.1 * (lat2 - lat1)
+and y = 69.1 * (lon2 - lon1) * cos(lat1/57.3) 
+
+(Source: http://www.meridianworlddata.com/Distance-Calculation.asp)
