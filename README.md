@@ -49,7 +49,7 @@ We like to collect and display the monthly rent estimate data from [Zillow](http
 - [BitTiger Resource](https://bittigerinst.github.io/web_crawler)
 - [MongoDB](https://www.mongodb.com/)
 - [Data Source](http://www.trulia.com/)
---[Setup Enviroment](https://docs.google.com/document/d/1ykSQo-IbPnCFTZOufhNsz-2oYXxjyCknIo6SABjD2Rg/edit?usp=sharing)
+- [Setup Enviroment](https://docs.google.com/document/d/1ykSQo-IbPnCFTZOufhNsz-2oYXxjyCknIo6SABjD2Rg/edit?usp=sharing)
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
