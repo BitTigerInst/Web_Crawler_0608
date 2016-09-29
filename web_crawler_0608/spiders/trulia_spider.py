@@ -35,9 +35,15 @@ class TruliaSpider(scrapy.Spider):
             item['zip_code'] = address_detail[6]
 
             #To get the mortgage value and mortgage neighborhood
-            item['mortgage_value'] = div.xpath('.//span[@class="h4 man pan typeEmphasize "]/text()'). \
+            item['mortgage_value'] = div.xpath('.//span[@class="cardPrice h4 man pan typeEmphasize noWrap typeTruncate "]/text()'). \
                 extract_first()
             item['neighborhood'] = div.xpath('.//div[@class="typeTruncate"]/text()'). \
                 extract_first()
+
+            # To get the numbers of bedrooms and bathrooms
+            item['bedroom'] =  div.xpath('.//li[@class="pln"]/text()').extract_first()
+            item['bathroom'] =  div.xpath('.//li[@class=""]/text()').extract_first()
+            item['sqft'] =  div.xpath('.//li[@class=""]/text()').extract()
+
             yield item
 
