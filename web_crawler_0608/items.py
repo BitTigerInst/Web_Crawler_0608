@@ -24,3 +24,6 @@ class TruliaWebCrawlerItem(scrapy.Item):
     city = scrapy.Field()
     state = scrapy.Field()
     zip_code = scrapy.Field()
+    bedroom = scrapy.Field()
+    bathroom = scrapy.Field()
+    sqft = scrapy.Field()    
