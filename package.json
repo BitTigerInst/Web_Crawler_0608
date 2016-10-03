@@ -1,0 +1,31 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "web crawler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BitTigerInst/Web_Crawler_0608.git"
+  },
+  "keywords": [
+    "crawer"
+  ],
+  "author": "0608",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BitTigerInst/Web_Crawler_0608/issues"
+  },
+  "homepage": "https://github.com/BitTigerInst/Web_Crawler_0608#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
+  }
+}
