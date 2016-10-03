@@ -51,6 +51,7 @@ We like to collect and display the monthly rent estimate data from [Zillow](http
 - [Data Source](http://www.trulia.com/)
 - [Setup Enviroment](https://docs.google.com/document/d/1ykSQo-IbPnCFTZOufhNsz-2oYXxjyCknIo6SABjD2Rg/edit?usp=sharing)
 - [Setup Backend Environment](https://docs.google.com/document/d/1g4ouNfkfN5JsqZeW1ttZNCEC_Qf0QsQ42wRt5GJ8_kY/edit?usp=sharing) 
+
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
