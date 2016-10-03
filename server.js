@@ -16,10 +16,7 @@ app.get('/', (req, res) => {
     // renders index.ejs
     res.render('index.ejs', {quotes: result})
   })
-   // res.sendFile(__dirname + '/index.html')
 
-  // Note: __dirname is the path to your current working directory. Try logging it and see what you get!
-  // Mine was '/Users/zellwk/Projects/demo-repos/crud-express-mongo' for this app.
 })
 
 
