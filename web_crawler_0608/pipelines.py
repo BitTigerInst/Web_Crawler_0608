@@ -39,3 +39,5 @@ class TruliaMongodbPipeline(object):
         #self.db[collection_name].remove({})  # clean the collection when new crawling starts
         self.db[collection_name].insert(dict(item))
         return item
+
+

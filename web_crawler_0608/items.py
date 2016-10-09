@@ -27,3 +27,7 @@ class TruliaWebCrawlerItem(scrapy.Item):
     bedroom = scrapy.Field()
     bathroom = scrapy.Field()
 #    sqft = scrapy.Field()
+
+class CityItem(scrapy.Item):
+    href = scrapy.Field()
+    city = scrapy.Field()
