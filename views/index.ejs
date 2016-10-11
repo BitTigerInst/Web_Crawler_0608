@@ -17,42 +17,82 @@
   <div class="container">
     <h1>Search Your Dream House</h1>
 
-  <ul class="quotes">
-  <% for(var i=0; i<quotes.length; i++) {%>
-    <li class="quote">
-      <span><%= quotes[i].name %></span>
-      <span><%= quotes[i].quote %></span>
-    </li>
-  <% } %>
-  </ul>
+  
   <form action="/quotes" method="POST">
    <div class="form-group">
     <input type="text" class="form-control" placeholder="Keywords" name="name">
-    <input type="text" class="form-control" placeholder="City" name="quote">
+    <input type="text" class="form-control" placeholder="Zip Code" name="quote">
   
   </div>
  
 
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    State<span class="caret"></span>
+    Radius (Miles)<span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#">CA</a></li>
-    <li><a href="#">NJ</a></li>
+    <li><a href="#">10</a></li>
+    <li><a href="#">20</a></li>
+    <li><a href="#">50</a></li>
+    <li><a href="#">all</a></li>
   </ul>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Type of House <span class="caret"></span>
+    High School Rating <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#">Rent</a></li>
-    <li><a href="#">Buy</a></li>
+    <li><a href="#">>=9</a></li>
+    <li><a href="#">>=8</a></li>
+    <li><a href="#">>=7</a></li>
+    <li><a href="#">>=6</a></li>
+    <li><a href="#">>all</a></li>
   </ul>
 </div>
     <button type="submit" class="btn btn-default">Search</button>
     <!-- Single button -->
+    <h2>Results</h2>
+   <!--  <ul class="quotes">
+  <% for(var i=0; i<quotes.length; i++) {%>
+    <li class="quote">
+      <span><%= quotes[i].name %></span>
+      <span><%= quotes[i].quote %></span>
+    </li>
+  <% } %>
+  </ul> -->
+ <table class="table">
+    <thead>
+      <tr>
+        <th>Area/Zipcode</th>
+        <th>Schools/Rating</th>
+        <th>Median House Price</th>
+        <th>Crime Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
  </form>
 
   </div> <!--container--> 
